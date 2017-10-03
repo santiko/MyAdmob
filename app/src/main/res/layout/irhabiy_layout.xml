@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/iklan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1135045960343514/1889278627" />
+
+    <Button
+        android:id="@+id/tombolInters1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial Ad - Iklan1" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/iklan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1135045960343514/6074616394" />
+
+    <Button
+        android:id="@+id/tombolInters2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial Ad - Iklan2" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/iklan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1135045960343514/7854601927" />
+
+    <Button
+        android:id="@+id/tombolInters3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial Ad - Iklan3" />
+
+    <TextView
+        android:id="@+id/labelTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="c o u n t d o w n t i m e r"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</LinearLayout>
